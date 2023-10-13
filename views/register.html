@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header> <!--JORGE TIENE QUE MEJORAR EL CÓDIGO-->
+        <nav class="navbar navbar-expand-lg " style="background-color: #f9f8f0;">
+            <a class="navbar-brand m-lg-4" href="#">
+                <img class="img-fluid" width="200px" height="" id="logo" src="./img/logo_color_blanco_perla.png">
+            </a>
+            <div class="container-fluid">
+                <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse mt-5 row justify-content-end" id="navbarSupportedContent">
+    
+    
+                    <div class="container">
+    
+    
+                        <div class="row mt-1 justify-content-end ">
+    
+                            <form class="d-flex col-sm-3" role="search">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1"><img width="25px"
+                                                src="./img/lupa.png" alt=""></span>
+                                    </div>
+                                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                </div>
+                            </form>
+    
+                            <div class="dropdown col-sm-1 mt-1">
+                                <a class="btn-close-white" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img width="25px"" src=" ./img/perfil.png" alt="">
+                                </a>
+    
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a style="color: rgb(194,151,71);" class="dropdown-item" href="#">Iniciar Sesión</a>
+                                    </li>
+                                    <li><a style="color:rgb(194,151,71)" class="dropdown-item"
+                                            href="./views/registro.html">Registrarse</a></li>
+                                </ul>
+                            </div>
+    
+                            <div class="dropdown col-sm-1 mt-1">
+                                <a class="nav-link" href="./views/carrito.html"><img width="25px"" src=" ./img/carrito.png"
+                                        alt=""></a>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+        </nav>
+    
+    
+        <ul class="nav justify-content-center mt-3 p-3 " style="background-color: #efe7df;">
+            <li class="nav-item">
+                <a style="color: rgb(138, 97, 19);" class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: rgb(138, 97, 19);" class="nav-link" href="#">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: rgb(138, 97, 19);" class="nav-link " href="#">NOSOTROS</a>
+            </li>
+        </ul>
+    </header>
+
+    <footer style="margin-top: 100px;">
+        <div class="container" style="text-align: center;"> <!--SACAR Style y poner una clase de bootstrap-->
+            <div class="row">
+                <div class="col">
+                    <img src="./img/Logo.png" class="img-thumbnail" alt="logo de Dress code"> <!--ver el tema de la img-->
+                </div>
+                <div class="col d-block">
+                    <p class="h5">Contacto</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            Horarios de atención:
+                        </li>
+                        <li>
+                            Lun. a Sáb. 9hs a 13hs | 17hs a 21hs
+                        </li>
+                        <li>
+                            Mail: dresscode@gmail.com
+                        </li>
+                        <li>
+                            Tel. 381-111222
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="h5">Redes sociales</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="bi bi-facebook"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-tiktok"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div div class="col">
+                    <p class="h5">Información</p>
+                    <ul class="list-unstyled"> <!--agregar link de error 404-->
+                        <li><a href=".." class="infoFooter">Preguntas frecuentes</a></li>
+                        <li>
+                            <a href=".." class="infoFooter">Medios de pago</a>
+                        </li>
+                        <li>
+                            <a href=".." class="infoFooter">Envíos a domicilio</a>
+                        </li>
+                        <li>
+                            <a href=".." class="infoFooter">Retiros en sucursal</a>
+                        </li>
+                        <li>
+                            <a href=".." class="infoFooter">Términos y condiciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p> &copy; Dress code 2023 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <button class="buttonFixed"><i class="bi bi-whatsapp" style="color: #1c7323;"></i></button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

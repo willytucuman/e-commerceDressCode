@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header> <!--JORGE TIENE QUE MEJORAR EL CÓDIGO-->
+        <nav class="navbar navbar-expand-lg " style="background-color: #f9f8f0;">
+            <a class="navbar-brand m-lg-4" href="#">
+                <img class="img-fluid" width="200px" height="" id="logo" src="./img/logo_color_blanco_perla.png">
+            </a>
+            <div class="container-fluid">
+                <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse mt-5 row justify-content-end" id="navbarSupportedContent">
+    
+    
+                    <div class="container">
+    
+    
+                        <div class="row mt-1 justify-content-end ">
+    
+                            <form class="d-flex col-sm-3" role="search">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1"><img width="25px"
+                                                src="./img/lupa.png" alt=""></span>
+                                    </div>
+                                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                </div>
+                            </form>
+    
+                            <div class="dropdown col-sm-1 mt-1">
+                                <a class="btn-close-white" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img width="25px"" src=" ./img/perfil.png" alt="">
+                                </a>
+    
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a style="color: rgb(194,151,71);" class="dropdown-item" href="#">Iniciar Sesión</a>
+                                    </li>
+                                    <li><a style="color:rgb(194,151,71)" class="dropdown-item"
+                                            href="./views/registro.html">Registrarse</a></li>
+                                </ul>
+                            </div>
+    
+                            <div class="dropdown col-sm-1 mt-1">
+                                <a class="nav-link" href="./views/carrito.html"><img width="25px"" src=" ./img/carrito.png"
+                                        alt=""></a>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+        </nav>
+    
+    
+        <ul class="nav justify-content-center mt-3 p-3 " style="background-color: #efe7df;">
+            <li class="nav-item">
+                <a style="color: rgb(138, 97, 19);" class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: rgb(138, 97, 19);" class="nav-link" href="#">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: rgb(138, 97, 19);" class="nav-link " href="#">NOSOTROS</a>
+            </li>
+        </ul>
+    </header>
+
+    <!--AQUI COMIENZA LA SECCIÓN DE CONTACTO-->
+    <h1>CONTACTO</h1>
+    <hr>
+    <div class="container-fluid text-center">
+        <div class="row" style="justify-content: center;">
+            <div class="card" style="width: 90%;">
+                <div class="card-body">
+                    <h5 class="card-title">INFO DE CONTACTO</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">No dudes en contactar</h6>
+                    <p class="card-text">Horarios de atencion: <br>lunes a viernes : 08:00 hs a 13:00hs y 17:00 hs a 21:00hs
+                        <br> sabados: 08:00hs a 13:00hs</p>
+                    <a href="" class="card-link">381-xxxxxxx</a>
+                    <a href="" class="card-link">Dress-code@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <!-- aca coloco el mapa -->
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h2>Ubicanos</h2>
+                <iframe class="mt-3 mb-3"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102220506302!2d-65.20978209020383!3d-26.836700876595298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1696952581302!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <!-- Aca va el formulario -->
+    
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h2>Contactanos</h2>
+                <form class="formulario mt-3">
+                    <fieldset>
+                        <legend>Contactanos llenando todos los campos</legend>
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label for="">Nombre</label>
+                                <input class="input-text" type="text">
+                            </div>
+                            <div class="campo">
+                                <label for="">Correo</label>
+                                <input class="input-text" type="email">
+                            </div>
+                            <div class="campo">
+                                <label for="">Telefono</label>
+                                <input class="input-text" type="tel">
+                            </div>
+                            <div class="campo">
+                                <label for="">Consultas</label>
+                                <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div> <!--contenedor de los campos-->
+                        <div class="alinear-derecha flex"><input class="boton w-100" type="submit" name="" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--AQUI TERMINA LA SECCIÓN DE CONTACTO-->
+
+    <footer style="margin-top: 100px;">
+        <div class="container" style="text-align: center;"> <!--SACAR Style y poner una clase de bootstrap-->
+            <div class="row">
+                <div class="col">
+                    <img src="./img/Logo.png" class="img-thumbnail" alt="logo de Dress code"> <!--ver el tema de la img-->
+                </div>
+                <div class="col d-block">
+                    <p class="h5">Contacto</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            Horarios de atención:
+                        </li>
+                        <li>
+                            Lun. a Sáb. 9hs a 13hs | 17hs a 21hs
+                        </li>
+                        <li>
+                            Mail: dresscode@gmail.com
+                        </li>
+                        <li>
+                            Tel. 381-111222
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="h5">Redes sociales</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="bi bi-facebook"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-tiktok"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div div class="col">
+                    <p class="h5">Información</p>
+                    <ul class="list-unstyled"> <!--agregar link de error 404-->
+                        <li><a href=".." class="infoFooter">Preguntas frecuentes</a></li>
+                        <li>
+                            <a href=".." class="infoFooter">Medios de pago</a>
+                        </li>
+                        <li>
+                            <a href=".." class="infoFooter">Envíos a domicilio</a>
+                        </li>
+                        <li>
+                            <a href=".." class="infoFooter">Retiros en sucursal</a>
+                        </li>
+                        <li>
+                            <a href=".." class="infoFooter">Términos y condiciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p> &copy; Dress code 2023 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <button class="buttonFixed"><i class="bi bi-whatsapp" style="color: #1c7323;"></i></button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

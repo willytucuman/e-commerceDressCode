@@ -1,0 +1,40 @@
+*{
+    color: #8A6113;
+}
+
+.img-thumbnail{
+    width: 225px;
+    height: 125px;
+    border: none;
+}
+
+.contacto{
+    text-align: justify;
+}
+
+main{
+    color: #08266f;
+}
+.infoFooter{
+    text-decoration: none;
+    color: #8A6113;
+}
+
+.img-thumbnail{
+    width: 225px;
+    height: 125px;
+    border: none;
+}
+
+.contacto{
+    text-align: justify;
+}
+
+.buttonFixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    padding: 10px 20px;
+    border: 2px solid #1c7323;
+    background-color:aliceblue;
+}
