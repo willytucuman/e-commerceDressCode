@@ -1,5 +1,7 @@
-*{
+nav,footer{
     color: #8A6113;
+    background-color: #f9f8f0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .img-thumbnail{
@@ -12,8 +14,14 @@
     text-align: justify;
 }
 
+/* MAINS */
+.main-contacto{
+    font-family: 'Roboto', sans-serif;
+}
 main{
-    color: #08266f;
+    color: #8A6113;
+    text-align: center;
+    margin: 30px;
 }
 .infoFooter{
     text-decoration: none;
@@ -37,4 +45,36 @@ main{
     padding: 10px 20px;
     border: 2px solid #1c7323;
     background-color:aliceblue;
+}
+
+/* botones login y registro */
+.dropdown-item{
+    color: rgb(194,151,71);
+}
+
+/* Container footer */
+.container-1{
+    text-align: center;
+}
+
+/* boton wp */
+.bi-whatsapp{
+    color: #1c7323;
+}
+/* LINKS DEL NAV Y NAV */
+#botones-nav{
+   color: rgb(138, 97, 19);
+}
+#items-nav{
+    background-color: #efe7df;
+}
+
+/* cards */
+/* cards del contacto */
+.card-body-contact{
+   color: rgb(194,151,71);
+}
+#link-gmail{
+    color: rgb(194,151,71);
+    text-decoration: none;
 }

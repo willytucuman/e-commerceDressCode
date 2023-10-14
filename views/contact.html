@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dress Code</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header> <!--JORGE TIENE QUE MEJORAR EL CÓDIGO-->
-        <nav class="navbar navbar-expand-lg " style="background-color: #f9f8f0;">
+    <!-- JORGE DEBE ACOMODAR EL LOGO PARA CENTRARLO EN TAMANOS MENORES A LARGE -->
+    <!-- NO SE OLVIDEN DE PONER CONTENIDO EN EL ALT -->
+    <header> 
+        <nav class="navbar navbar-expand-lg " >
             <a class="navbar-brand m-lg-4" href="#">
-                <img class="img-fluid" width="200px" height="" id="logo" src="./img/logo_color_blanco_perla.png">
+                <img class="img-fluid" width="200px" id="logo" src="../img/logo_color_blanco_perla.png">
             </a>
             <div class="container-fluid">
                 <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse"
@@ -25,15 +34,13 @@
     
     
                     <div class="container">
-    
-    
                         <div class="row mt-1 justify-content-end ">
     
                             <form class="d-flex col-sm-3" role="search">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1"><img width="25px"
-                                                src="./img/lupa.png" alt=""></span>
+                                                src="../img/lupa.png" alt=""></span>
                                     </div>
                                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                                 </div>
@@ -42,63 +49,59 @@
                             <div class="dropdown col-sm-1 mt-1">
                                 <a class="btn-close-white" href="#" role="button" id="dropdownMenuLink"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img width="25px"" src=" ./img/perfil.png" alt="">
+                                    <img width="25px" src=" ../img/perfil.png" alt="">
                                 </a>
     
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <li><a style="color: rgb(194,151,71);" class="dropdown-item" href="#">Iniciar Sesión</a>
+                                    <li><a class="dropdown-item" href="#">Iniciar Sesión</a>
                                     </li>
-                                    <li><a style="color:rgb(194,151,71)" class="dropdown-item"
-                                            href="./views/registro.html">Registrarse</a></li>
+                                    <li><a  class="dropdown-item"
+                                        href="./views/register.html">Registrarse</a></li>
                                 </ul>
                             </div>
     
                             <div class="dropdown col-sm-1 mt-1">
-                                <a class="nav-link" href="./views/carrito.html"><img width="25px"" src=" ./img/carrito.png"
+                                <a class="nav-link" href="./views/shoppingDetail.html"><img width="25px" src=" ./img/carrito.png"
                                         alt=""></a>
                             </div>
-    
                         </div>
-    
                     </div>
-    
                 </div>
             </div>
-    
         </nav>
     
     
-        <ul class="nav justify-content-center mt-3 p-3 " style="background-color: #efe7df;">
+        <ul class="nav justify-content-center mt-3 p-3 " id="items-nav">
             <li class="nav-item">
-                <a style="color: rgb(138, 97, 19);" class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+                <a id="botones-nav" class="nav-link" aria-current="page" href="#">INICIO</a>
             </li>
             <li class="nav-item">
-                <a style="color: rgb(138, 97, 19);" class="nav-link" href="#">CONTACTO</a>
+                <a id="botones-nav" class="nav-link" href="./views/contact.html">CONTACTO</a>
             </li>
             <li class="nav-item">
-                <a style="color: rgb(138, 97, 19);" class="nav-link " href="#">NOSOTROS</a>
+                <a id="botones-nav" class="nav-link " href="./views/about.html">NOSOTROS</a>
             </li>
         </ul>
     </header>
-
-    <!--AQUI COMIENZA LA SECCIÓN DE CONTACTO-->
-    <h1>CONTACTO</h1>
-    <hr>
-    <div class="container-fluid text-center">
+    
+    
+    <!-- aca comienza toda la info de contacto -->
+    <main class="main-contacto">
+     <h1>CONTACTO</h1>
+    <div class="container-fluid text-center ">
         <div class="row" style="justify-content: center;">
-            <div class="card" style="width: 90%;">
-                <div class="card-body">
+            <div class="card mt-3" style="width: 90%;">
+                <div class="card-body card-body-contact">
                     <h5 class="card-title">INFO DE CONTACTO</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">No dudes en contactar</h6>
                     <p class="card-text">Horarios de atencion: <br>lunes a viernes : 08:00 hs a 13:00hs y 17:00 hs a 21:00hs
                         <br> sabados: 08:00hs a 13:00hs</p>
-                    <a href="" class="card-link">381-xxxxxxx</a>
-                    <a href="" class="card-link">Dress-code@gmail.com</a>
+                    <p class="card-link">381-xxxxxxx</p>
+                    <a id="link-gmail" href="../views/error404.html" class="card-link">Dress-code@gmail.com</a>
                 </div>
             </div>
         </div>
         <!-- aca coloco el mapa -->
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <h2>Ubicanos</h2>
                 <iframe class="mt-3 mb-3"
@@ -140,13 +143,13 @@
         </div>
     </div>
     </div>
-    <!--AQUI TERMINA LA SECCIÓN DE CONTACTO-->
-
-    <footer style="margin-top: 100px;">
-        <div class="container" style="text-align: center;"> <!--SACAR Style y poner una clase de bootstrap-->
+    </main>
+    <!-- aca termina la info  -->
+    <footer class="mt-3">
+        <div class="container container-1 p-5"> 
             <div class="row">
                 <div class="col">
-                    <img src="./img/Logo.png" class="img-thumbnail" alt="logo de Dress code"> <!--ver el tema de la img-->
+                    <img src="../img/logo_color_blanco_perla.png" class="img-thumbnail" alt="logo de Dress code"> 
                 </div>
                 <div class="col d-block">
                     <p class="h5">Contacto</p>
@@ -182,23 +185,23 @@
             </div>
         </div>
         <hr>
-        <div class="container" style="text-align: center;">
+        <div class="container container-1">
             <div class="row">
-                <div div class="col">
+                <div class="col">
                     <p class="h5">Información</p>
-                    <ul class="list-unstyled"> <!--agregar link de error 404-->
-                        <li><a href=".." class="infoFooter">Preguntas frecuentes</a></li>
+                    <ul  class="list-unstyled"> <!--agregar link de error 404-->
+                        <li><a href="../views/error404.html" class="infoFooter">Preguntas frecuentes</a></li>
                         <li>
-                            <a href=".." class="infoFooter">Medios de pago</a>
+                            <a href="../views/error404.html" class="infoFooter">Medios de pago</a>
                         </li>
                         <li>
-                            <a href=".." class="infoFooter">Envíos a domicilio</a>
+                            <a href="../views/error404.html" class="infoFooter">Envíos a domicilio</a>
                         </li>
                         <li>
-                            <a href=".." class="infoFooter">Retiros en sucursal</a>
+                            <a href="../views/error404.html" class="infoFooter">Retiros en sucursal</a>
                         </li>
                         <li>
-                            <a href=".." class="infoFooter">Términos y condiciones</a>
+                            <a href="../views/error404.html" class="infoFooter">Términos y condiciones</a>
                         </li>
                     </ul>
                 </div>
@@ -207,9 +210,8 @@
         </div>
     </footer>
 
-    <button class="buttonFixed"><i class="bi bi-whatsapp" style="color: #1c7323;"></i></button>
-
-
+    <button class="buttonFixed"><i class="bi bi-whatsapp" ></i></button>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
