@@ -14,6 +14,16 @@ nav,footer{
     text-align: justify;
 }
 
+/* globales */
+h1,h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(194,151,71);
+}
+body{
+    background-color:#ffffff ;
+    font-family: 'Roboto', sans-serif;
+}
 /* MAINS */
 .main-contacto{
     font-family: 'Roboto', sans-serif;
@@ -46,6 +56,9 @@ main{
     border: 2px solid #1c7323;
     background-color:aliceblue;
 }
+.card-body{
+    text-align: center;
+}
 
 /* botones login y registro */
 .dropdown-item{
@@ -65,16 +78,247 @@ main{
 #botones-nav{
    color: rgb(138, 97, 19);
 }
-#items-nav{
+.nav{
     background-color: #efe7df;
 }
 
 /* cards */
 /* cards del contacto */
 .card-body-contact{
-   color: rgb(194,151,71);
+    color:var(--bg-form);
+ }
+ #link-gmail{
+     color: rgb(194,151,71);
+     text-decoration: none;
+ }
+ 
+
+/* PAGINA ABOOUT */
+.row-descripcion-about{
+    margin: 10px 10px;    
 }
-#link-gmail{
-    color: rgb(194,151,71);
+/* Contenedor botones pagina nosotros */
+.btn-primary-2{
+    padding: 20px;
+    justify-content: flex-end;
+}
+/* Imagenes cards*/
+.card-img-top{
+     padding: 20px 20px;
+     height: 400px;
+}
+#imagen-card{
+    height: 400px;
+    width: 400px;
+}
+.card{
+    margin: 20px;
+    background: var(--letras-campo);
+}
+.body-about{
+    text-align: center;
+}
+
+
+/* SECCION MAIN */
+.bg-body-tertiary{
+    margin: 50px;
+   
+}
+
+.form-segundo-nav{
+    column-gap: 50px;
+    padding: 10px 0px 0px 0px;
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .form-segundo-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .form-segundo-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:576px){
+    .form-segundo-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.btn{
+    background-color: #0f3e8d;
+    color: white;
+}
+.btn-segundo-nav{
+    background-color: #C29747;
+}
+/* formulario parte contacto */
+
+/* row del contacto */
+.row-contact{
+    justify-content: center;
+}
+.card-contact{
+    width: 90%;
+   
+}
+/* colores del form */
+:root{
+    --btnNav : #e8b659;
+    --primario: #FFC107;
+    --bg-form:#8A6113;
+    --letras-campo:#efe7df;
+}
+/* formulario */
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    background-color: var(--btnNav);
+    width: min(60rem, 100%);/*utilizar el valor mas pequeno*/
+    margin: 0 auto; /*esta vez lo centramos asi porque es un solo elemento*/
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--bg-form);
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+.boton {
+    background-color: var(--letras-campo);
+    color: var(--bg-form);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 2rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+    font-family: 'Roboto', sans-serif;;
 }
+.campo {
+    margin-bottom: 1rem;
+    }
+    
+.campo label{
+    color: var(--bg-form);
+    font-weight: bold;
+    margin-bottom: .5rem ;
+    display: block;
+    font-family: 'Roboto', sans-serif;;
+}
+.campo textarea{
+        height: 20rem;
+    }
+    
+ .input-text {
+        width: 100%;
+        border: none;
+        padding: 1.5rem;
+        border-radius: .5rem;
+    }
+.boton:hover{
+        cursor: pointer;
+    }
+
+/* aca resolvemos el despliegue del formulario y el mapa en esta dimension */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+        .row-form-mapa{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+      }
+ /* Aca termino mi css del form */
+
+
+ /* ROBOT 404 */
+ .contenedor-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Dosis&family=Marcellus&family=Roboto:wght@300&display=swap');
+
+
+.parrafo1{
+    color: #c29747;
+    font-size: 100px;
+}
+.parrafo2{
+    color: rgb(138, 97, 19);
+    font-size: 200px;
+   
+}
+.parrafo3{
+    color: rgb(194, 151, 71);
+    font-size: 30px;
+}
+.btn-reg{
+    background-color: #0f3e8d;
+    color: white;
+    text-align: center;
+    width: 200px;
+}
+.btn-reg:hover {
+    background-color: #08266f;
+    color: white;
+}
+#imagen-astronauta{
+    width: 300px;
+    margin-bottom: 1rem;
+    animation: moon 1.0s infinite alternate;
+}
+@keyframes moon{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+} 
+/* ACA TERMINA EL ERROR 404 */
+
+/* ACA VEMOS la parte de comentarios */
+.centrar-card {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-p-detail{
+    background-color: white;
+}
+.carta-comentario{
+    background-color: white;
+}
+/* ACA termina la parte de comentarios */
+
+/* ESTILOS PAGINAS REGISTRO */
+#crearCuenta {
+    background-color: #1c7323;
+    color: white;
+}
+
+#crearCuenta:hover{
+    background-color: #0c3e11;
+}
+/* TERMINA PAGINA REGISTRO */
